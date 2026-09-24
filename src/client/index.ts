@@ -50,7 +50,7 @@ const tokens = {
 
 export function apply(ctx: Context): void {
   ctx.effect(
-    () => ctx.theme.overrideTokens('dsh-haru-theme', tokens),
-    'dsh-haru-theme: palette',
+    () => ctx.theme.overrideTokens('@sumizomeee/dsh-haru-theme', tokens),
+    'haru-theme: palette',
   )
 }
