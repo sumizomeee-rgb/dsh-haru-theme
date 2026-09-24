@@ -9,6 +9,6 @@
   "include": ["src/**/*.ts"],
   "references": [
     { "path": "../../../vendor/cordis" },
-    { "path": "../ui-theme" }
+    { "path": "../ui-theme/tsconfig.client.json" }
   ]
 }
